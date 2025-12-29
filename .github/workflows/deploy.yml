@@ -93,7 +93,7 @@ jobs:
 
               attempt=$((attempt + 1))
             done
-          ' || echo "Timeout reached after 5 hours"
+          ' || echo "Timeout reached after 12 hours"
 
       - name: Post-Run Analysis
         if: always()
